@@ -8,6 +8,9 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
+    "deploy": "run-s commit deploy-master",
+    "commit": "git add . ; git cz",
+    "deploy-master": "git push origin master",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -27,5 +30,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
