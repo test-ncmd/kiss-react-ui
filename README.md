@@ -1,2 +1,2 @@
-# kiss-ui
-Keep It Simple Stupid User Interface to do simple tasks
+# kiss-react-ui
+Keep It Simple Stupid React User Interface to do simple tasks
